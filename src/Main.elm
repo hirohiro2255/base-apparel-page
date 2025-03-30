@@ -62,7 +62,7 @@ view model =
                     , form [ class "form" ]
                         [ div [ class "input-wrapper" ]
                             [ input
-                                [ classList [ ( "input", True ), ( "error-input", True ) ]
+                                [ classList [ ( "input", True ), ( "error-input", False ) ]
                                 , type_ "text"
                                 , placeholder "janeappleseed#email.com"
                                 ]

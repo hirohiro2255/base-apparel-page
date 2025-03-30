@@ -84,13 +84,15 @@ body {
   color: var(--neutral-dark-grayish-red);
   border-radius: 28px;
   border: 1px solid var(--primary-desaturated-red);
-  background-color: transparent;
-  margin-top: 2px;
+  background-color: ;
+  /*  margin-top: 2px;*/
   /*  outline: none;*/
+  opacity: 0.5;
 }
 
 .input:focus {
-  outline: none;
+  outline: 1px solid #cd9898;
+  outline-offset: -1px;
 }
 
 .error-input {
@@ -105,15 +107,16 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
-  width: 20.58%;
+  width: 21%;
   position: absolute;
   right: 0;
   top: 0;
   padding-top: 15px;
-  padding-bottom: 16px;
+  padding-bottom: 15px;
   border-radius: 28px;
   transition: 0.3s;
   box-shadow: 0px 15px 20px 0px #c66e6e;
+  border: none;
 }
 
 .button:hover {
