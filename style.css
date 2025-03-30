@@ -85,11 +85,12 @@ body {
   border-radius: 28px;
   border: 1px solid var(--primary-desaturated-red);
   background-color: transparent;
+  margin-top: 2px;
   /*  outline: none;*/
 }
 
 .input:focus {
-  outline: 1px solid var(--primary-desaturated-red);
+  outline: none;
 }
 
 .error-input {
@@ -109,14 +110,13 @@ body {
   right: 0;
   top: 0;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 16px;
   border-radius: 28px;
   transition: 0.3s;
   box-shadow: 0px 15px 20px 0px #c66e6e;
 }
 
 .button:hover {
-  opacity: 0.7;
   box-shadow: 0px 12px 17px 0px #c66e6e;
 }
 
